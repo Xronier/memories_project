@@ -2,7 +2,7 @@
 import axios from 'axios'
 
 // const url = 'https://memories8.herokuapp.com/posts';
-const url = ''https://memories8.herokuapp.com/posts'
+const url = 'https://memories8.herokuapp.com/posts';
 
 // Get posts from DB
 export const fetchPosts = () => axios.get(url);
